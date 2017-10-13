@@ -30,6 +30,7 @@ module.exports = {
      */
     deploy: {
         production: {
+            key: '~/.ssh/id_rsa',
             user: 'dworkz',
             host: '185.216.32.138',
             ref: 'origin/deployment',
