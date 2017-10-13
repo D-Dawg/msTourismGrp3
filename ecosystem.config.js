@@ -35,7 +35,7 @@ module.exports = {
             host: '185.216.32.138',
             ref: 'origin/deployment',
             repo: 'git@github.com:D-Dawg/msTourismGrp3.git',
-            path: '/home/msTourism',
+            path: '/home/dworkz/home/msTourism',
             'post-deploy': 'npm install && pm2 reload ecosystem.config.js --env production',
             "ssh_options": [
                 "StrictHostKeyChecking=no"
