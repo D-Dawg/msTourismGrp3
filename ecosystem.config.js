@@ -7,7 +7,7 @@ module.exports = {
 
         // First application
         {
-            name: 'API',
+            name: 'msTourism',
             script: './app.js',
             env: {
                 COMMON_VARIABLE: 'true'
