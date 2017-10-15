@@ -27,7 +27,7 @@ module.exports = {
             key: '~/.ssh/id_rsa',
             user: 'dworkz',
             host: '185.216.32.138',
-            ref: 'origin/dep',
+            ref: 'origin/deployment',
             repo: 'git@github.com:D-Dawg/msTourismGrp3.git',
             path: '/home/dworkz/home/msTourism'
             // 'post-deploy': 'npm install && pm2 reload ecosystem.config.js --env production',
